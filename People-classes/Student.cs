@@ -29,6 +29,9 @@ namespace People_classes
             Faculty = "IPZ";
             HEI = "ZDSU";
         }
-
+        public override string ShowInfo()
+        {
+            return $"{FirstName} {LastName} {BirthDate} {Course} {Group} {Faculty} {HEI}";
+        }
     }
 }
