@@ -9,11 +9,11 @@ namespace People_classes
     internal class Student : People
     {
         public int Course { get; set; }
-        public string Group { get; set; }
+        public int Group { get; set; }
         public string Faculty { get; set; }
         public string HEI { get; set; }
 
-        public Student(string firstName, string lastName, DateTime birthDate, int course, string group, string faculty, string hEI)
+        public Student(string firstName, string lastName, DateTime birthDate, int course, int group, string faculty, string hEI)
             : base(firstName, lastName, birthDate)
 
         {
@@ -23,7 +23,12 @@ namespace People_classes
             HEI = hEI;
         }
 
-        public Student() { }
+        public Student() {
+            Course = 1;
+            Group = 4;
+            Faculty = "IPZ";
+            HEI = "ZDSU";
+        }
 
     }
 }
