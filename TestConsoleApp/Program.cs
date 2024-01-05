@@ -8,5 +8,6 @@ people[3] = new Teacher("Andiy", "Morozov", new DateTime(1990, 1, 1), "rector", 
 
 for (int i = 0; i < people.Length; i++)
 {
-    Console.WriteLine(people[i]);
+    Console.WriteLine(people[i].ShowInfo());
+    Console.WriteLine();
 }
