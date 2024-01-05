@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace People_classes
 {
-     internal class People
+    public class People
     {
         public string FirstName { get; set; }
         public string LastName { get; set; }
@@ -25,6 +25,11 @@ namespace People_classes
             FirstName = "David";
             LastName = "Paklin";
             BirthDate = new DateTime(2005, 9, 16);
+        }
+
+        public virtual string ShowInfo()
+        {
+            return $"{FirstName} {LastName} {BirthDate}";
         }
     }
 }

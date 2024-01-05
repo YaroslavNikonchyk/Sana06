@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace People_classes
 {
-    internal class Student : People
+    public class Student : People
     {
         public int Course { get; set; }
         public int Group { get; set; }

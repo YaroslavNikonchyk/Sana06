@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace People_classes
 {
-    internal class Teacher : People
+    public class Teacher : People
     {
         public string Position { get; set; }
         public string Departament { get; set; }
@@ -16,8 +16,17 @@ namespace People_classes
         {
             Position = position;
             Departament = departament;
-            HEI= hEI;
+            HEI = hEI;
         }
-
+        public Teacher()
+        {
+            Position = "rector";
+            Departament = "IPZ";
+            HEI = "ZDSU";
+        }
+        public override string ShowInfo()
+        {
+            return $"{FirstName} {LastName} {BirthDate} {Position} {Departament} {HEI}";
+        }
     }
 }
