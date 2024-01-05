@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace People_classes
+namespace PeopleClasses
 {
     public class Student : People
     {
@@ -23,7 +23,8 @@ namespace People_classes
             HEI = hEI;
         }
 
-        public Student() {
+        public Student()
+        {
             Course = 1;
             Group = 4;
             Faculty = "IPZ";

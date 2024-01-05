@@ -1,4 +1,4 @@
-﻿using People_classes;
+﻿using PeopleClasses;
 
 People[] people = new People[4];
 people[0] = new People("Yaroslav", "Nikonchuk", new DateTime(2006, 4, 19));

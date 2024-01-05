@@ -2,12 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace People_classes
+namespace PeopleClasses
 {
-   public class Applicant : People
+    public class Applicant : People
     {
         public int EIEScore { get; set; }
         public int EducationDocumentScore { get; set; }
