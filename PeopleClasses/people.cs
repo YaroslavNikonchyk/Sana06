@@ -29,7 +29,7 @@ namespace PeopleClasses
 
         public virtual string ShowInfo()
         {
-            return $"{FirstName} {LastName} {BirthDate}";
+            return $"Name:{FirstName}; Lastname:{LastName}; BirthDate:{BirthDate};";
         }
     }
 }

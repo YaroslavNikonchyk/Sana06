@@ -26,7 +26,7 @@ namespace PeopleClasses
         }
         public override string ShowInfo()
         {
-            return $"{FirstName} {LastName} {BirthDate} {Position} {Departament} {HEI}";
+            return $"Name:{FirstName}; Lastname:{LastName}; BirthDate:{BirthDate}; Position:{Position}; Departament:{Departament}; HEI:{HEI};";
         }
     }
 }

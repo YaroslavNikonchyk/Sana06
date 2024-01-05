@@ -32,7 +32,7 @@ namespace PeopleClasses
         }
         public override string ShowInfo()
         {
-            return $"{FirstName} {LastName} {BirthDate} {Course} {Group} {Faculty} {HEI}";
+            return $"Name:{FirstName}; Lastname:{LastName}; BirthDate:{BirthDate}; Course: {Course}; Group: {Group}; Faculty:{Faculty}; HEI:{HEI};";
         }
     }
 }
